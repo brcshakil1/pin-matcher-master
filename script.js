@@ -27,7 +27,6 @@ let pinButton = document.getElementById("pinButton");
 
 pinButton.addEventListener('click', ()=>{
     pinDisplay.value = Math.round(Math.random()*10000);
-    location.reload();
 })
 
 //pin match
